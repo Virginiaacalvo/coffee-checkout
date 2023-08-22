@@ -1,3 +1,25 @@
-*{
+* {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #472626;
+    gap: 4px;
+}
+
+.logo-img {
+    height: 30px;
+}
+
+.main-text {
+    font-size: 10px;
+    color: #e8e9b8;
 }
