@@ -11,9 +11,83 @@
 
 <body>
     <header class="main-header">
-        <img src="img/coffee_masters_logo.png" alt="coffeeMastersLogo" class="logo-img">
-        <h1 class="main-text">Coffee Masters</h1>
+        <h1 class="main-text">
+            <img src="img/coffee_masters_logo.png" alt="coffeeMastersLogo" class="logo-img">
+            Coffee Masters
+        </h1>
     </header>
+    <section class="page">
+        <section class="box order">
+            <h2 class="box-title">ITEMS</h2>
+            <ul class="items">
+                <li class="item">
+                    <div class="item-quantify">1x</div>
+                    <div class="item-title">Cappuccino</div>
+                    <div class="item-price">$3.35</div>
+                    <ul class="item-opinions-list">
+                        <li class="item-opinion">Lite Foam</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-quantify">1x</div>
+                    <div class="item-title">Cappuccino</div>
+                    <div class="item-price">$3.85</div>
+                    <ul class="item-opinions-list">
+                        <li class="item-opinion">Lite Milk</li>
+                        <li class="item-opinion">Double espresso</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-quantify">1x</div>
+                    <div class="item-title">Croissant</div>
+                    <div class="item-price">$2.45</div>
+                    <ul class="item-opinions-list">
+                        <li class="item-opinion">Butter</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="payments">
+            <section class="box name-box">
+                <h2 class="box-title">NAME</h2>
+                <div class="input-group">
+                    <label for="name" class="user-input-label">Name for order</label>
+                    <input type="text" class="user-input" id="name">
+                </div>
+            </section>
+            <section class="box payment-box">
+                <h2 class="box-title">PAYMENT</h2>
+                <div class="input-group">
+                    <label for="cc" class="user-input-label">Card Number</label>
+                    <input type="text" class="user-input" id="cc">
+                </div>
+                <div class="input-group">
+                    <label for="ccv" class="user-input-label">CCV number</label>
+                    <input type="text" class="user-input short-input" id="ccv">
+                </div>
+            </section>
+        </section>
+        <section class="total">
+            <table class="totals-tables">
+                <tbody>
+                    <tr>
+                        <td>Subtotal:</td>
+                        <td>$19.27</td>
+                    </tr>
+                    <tr>
+                        <td>Tax:</td>
+                        <td>$0.96</td>
+                    </tr>
+                    <tr class="final-totals">
+                        <td>Total:</td>
+                        <td>$20.23</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <button class="total-button">Place order</button>
+        </section>
+    </section>
 </body>
 
 </html>
